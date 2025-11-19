@@ -1,26 +1,8 @@
 # Ignore everything by default
 *
 
-# Ignore build outputs
-bin/
-obj/
-
-# Ignore Visual Studio files
-.vs/
-*.user
-*.suo
-*.vscode/
-
-# Ignore solution and project files
-*.sln
-*.csproj
-
-# Ignore packages and logs
-*.nupkg
-*.log
-
-# Track only code and docs
-!*.cs
-!*.txt
-!*.docx
-!*.pdf
+# Allow these file types anywhere
+!**/*.cs
+!**/*.txt
+!**/*.docx
+!**/*.pdf
